@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 162, 162);
+    font-family: Arial, sans-serif;
+    color: #9B5D50;
+}
+
+header {
+    background-color: #F8D7DA;
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: burlywood;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
