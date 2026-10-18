@@ -8,6 +8,7 @@
             <ol>
                 <li><router-link to="/">Início</router-link></li>
                 <li><router-link to="/cardapio">Cardápio</router-link></li>
+                <li><router-link to="/unidades">Unidades</router-link></li>
             </ol>
         </nav>
     </header>

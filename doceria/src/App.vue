@@ -1,18 +1,18 @@
-
 <template>
   <HeaderSection />
   <router-view />
-  <main>
-  </main>
+  <FooterSection />
 </template>
 
 <script>
 import HeaderSection from './components/HeaderSection.vue'
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderSection
+    HeaderSection,
+    FooterSection
   }
 }
 </script>

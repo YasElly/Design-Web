@@ -5,33 +5,47 @@
 }
 
 body {
-    background-color: rgb(216, 162, 162);
+    background-color: #fce5ea;
     font-family: Arial, sans-serif;
-    color: #9B5D50;
+    color: #854958;
 }
 
 header {
-    background-color: #F8D7DA;
+    background-color: #fcc9d6;
     padding: 25px;
     text-align: center;
 }
 
 h1 {
     font-size: 32px;
+    padding-bottom: 8px;
+}
+
+h1 a {
+    color: #ad6375;
+    text-decoration: none;
 }
 
 nav {
     margin-top: 15px;
 }
 
+nav ol {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
 nav a {
-    color: burlywood;
+    color: #5f343f;
     text-decoration: none;
     margin: 15px;
 }
 
 nav a:hover {
-    color: white;
+    color: #C27A8D;
 }
 
 main {
